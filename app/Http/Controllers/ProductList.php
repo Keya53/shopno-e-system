@@ -10,7 +10,7 @@ class ProductList extends Controller
     function viewProduct(){
         $Products =  buyProduct::with('productQuantity')->get();
         //    echo '<pre>',print_r($Products);die();
-        //    echo '<pre>',print_r($Products->toArray());die();
+            // echo '<pre>',print_r($Products->toArray());die();
         return view('viewProduct',compact('Products'));
       
 

@@ -39,16 +39,14 @@
 					
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email">
-						<span class="focus-input100"></span>
-						<span class="label-input100">Email</span>
+						<input class="input100" type="text" name="email" placeholder="Email">
+						
 					</div>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass">
-						<span class="focus-input100"></span>
-						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="pass" placeholder="Password">
+					
 					</div>
 
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
