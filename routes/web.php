@@ -23,3 +23,16 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/login','ProductList@viewProduct');
 
 
+// search
+Route::get('/search','SearchController@search');
+
+
+//detailsProduct
+Route::get('/detailsProduct/{id}','ProductController@detailsProduct');
+Route::get('/backProductList','ProductList@viewProduct');
+
+// footer
+
+Route::get('/footer','ProductController@footer');
+
+
